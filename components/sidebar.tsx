@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Sidebar() {
   return (
-    <div className="h-screen w-64 bg-green-800 text-white p-6">
+    <div className="h-screen w-60 bg-green-800 text-white p-6">
       <nav className="flex flex-col space-y-4">
         <Link href="/major" className="hover:text-gray-300">
           หน้าหลักสาขาวิชา
